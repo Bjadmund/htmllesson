@@ -1,0 +1,75 @@
+<html>
+
+  <head>
+    <title> 
+      Название страницы
+    </title>
+  </head>
+
+<body>
+  <h1><b>Отправка заявки на конференцию<b></h1>
+  <b>Основные данные<b>
+
+  <form name="test" method="post" action="input1.php">
+  <p><b>*Фамилия, имя, отчество:</b><br>
+   <input type="text" size="40">
+  </p>
+  <form name="test" method="post" action="input1.php">
+  <p><b>Дата рождения:</b><br>
+   <input type="text" size="40">
+  </p>
+   <p><b>Пол:</b><Br>
+   <input type="radio" name="browser" value="male"> мужской<Br>
+   <input type="radio" name="browser" value="female"> женский<Br>
+   
+  </p>
+
+  <h2><b>Данные для создания личного кабинета<b></h2>
+    <form name="test" method="post" action="input1.php">
+  <p><b>*Адрес электронной почты:</b><br>
+   <input type="text" size="40">
+  </p>
+
+  <form name="test" method="post" action="input1.php">
+  <p><b>*Пароль для создания личного кабинета:</b><br>
+   <input type="text" size="40">
+  </p>
+
+  <form name="test" method="post" action="input1.php">
+  <p><b>*Подтверждение пароля:</b><br>
+   <input type="text" size="40">
+  </p>
+
+<h3><b>Материалы для конференции<b></h3>
+
+<form name="test" method="post" action="input1.php">
+  <p><b>*Тема доклада:</b><br>
+   <input type="text" size="40">
+  </p>
+
+  <p>*Тезисы доклада(не более 1000 символов):<Br>
+   <textarea name="comment" cols="40" rows="3"></textarea></p>
+  <p>
+   <input type="reset" value="Очистить"></p>
+ </form>
+ 
+
+ <form enctype="multipart/form-data" method="post">
+   <p>Файл презентации:</p>
+   <p><input type="file" name="photo" multiple accept=".pptx">
+   </p>
+  </form>
+
+   <p><b>Дополнительные опции</b><Br>
+   <input type="checkbox" name="browser" value="hotel"> Проживание в отеле<Br>
+   <input type="radio" name="browser" value="breakfast"> Завтрак<Br>
+   <input type="radio" name="browser" value="dinner"> Обед<Br>
+   <input type="radio" name="browser" value="dinner"> Ужин<Br>
+  </p>
+
+<p><input type="submit" value="Отправить">
+
+<p><b>*Поля, отмеченные звёздочкой, являются обязательными для заполнения<b><p>
+
+</body>
+</html>
